@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="add.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>All product - Aayush's store</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="container">
+                <div class="navbar">
+                        <div class="logo">
+                            <img src="images/logo.png" width="125px">
+                        </div>
+                        <nav>
+                            <ul id="MenuItems">
+                                <li><a href="">Home</a></li>
+                                <li><a href="">Product</a></li>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Contact</a></li>
+                                <li><a href="">Account</a></li>
+                            </ul>
+                        </nav>
+                        <img src="images/cart.png" width="30px" height="30px">
+                        <img src="images/menu.png" width="30px" height="30px" class="menu-icon" onclick="menutoggle()">
+                </div>
+        </div>
+
+        <div class="small-container">
+            <div class="row row-2">
+                <h2>All Product</h2>
+                <select>
+                    <option>Default</option>
+                    <option>Sort by Price</option>
+                    <option>Sort by Popularity</option>
+                    <option>Sort by Rating</option>
+                    <option>Sort by sale</option>
+                </select>
+            </div>
+
+
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-1.jpg">
+                    <h4>Red Printed T-shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>₹500</p>
+                </div>
+                <div class="col-4">
+                        <img src="images/product-2.jpg">
+                        <h4>Black sneakers</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>₹1500</p>
+                    </div>
+                    <div class="col-4">
+                            <img src="images/product-4.jpg">
+                            <h4>Blue polo neck T-shirt</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>₹1299</p>
+                        </div>
+                        <div class="col-4">
+                                <img src="images/product-3.jpg">
+                                <h4>Grey color Track paint</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <p>₹749</p>
+                            </div>
+            </div>
+            <div class="row">
+                    <div class="col-4">
+                        <img src="images/product-1.jpg">
+                        <h4>Red Printed T-shirt</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>₹500</p>
+                    </div>
+                    <div class="col-4">
+                            <img src="images/product-2.jpg">
+                            <h4>Black sneakers</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>₹1500</p>
+                        </div>
+                        <div class="col-4">
+                                <img src="images/product-4.jpg">
+                                <h4>Blue polo neck T-shirt</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <p>₹1299</p>
+                            </div>
+                            <div class="col-4">
+                                    <img src="images/product-3.jpg">
+                                    <h4>Grey color Track paint</h4>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                    </div>
+                                    <p>₹749</p>
+                                </div>
+                </div>
+    
+                <div class="row">
+                        <div class="col-4">
+                            <img src="images/product-5.jpg">
+                            <h4>Grey Mid high sneakers</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>₹2999</p>
+                        </div>
+                        <div class="col-4">
+                                <img src="images/product-6.jpg">
+                                <h4>Black round neck T-shirt</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                </div>
+                                <p>₹1500</p>
+                            </div>
+                            <div class="col-4">
+                                    <img src="images/product-7.jpg">
+                                    <h4>Socks (pack of 3)</h4>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                    </div>
+                                    <p>₹129</p>
+                                </div>
+                                <div class="col-4">
+                                        <img src="images/product-8.jpg">
+                                        <h4>Fossil Analog watch</h4>
+                                        <div class="rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <p>₹5999</p>
+                                    </div>
+                    </div>
+    
+    
+                    <div class="row">
+                            <div class="col-4">
+                                <img src="images/product-9.jpg">
+                                <h4>Red Printed T-shirt</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <p>₹500</p>
+                            </div>
+                            <div class="col-4">
+                                    <img src="images/product-10.jpg">
+                                    <h4>Black sneakers</h4>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                    </div>
+                                    <p>₹1500</p>
+                                </div>
+                                <div class="col-4">
+                                        <img src="images/product-11.jpg">
+                                        <h4>Blue polo neck T-shirt</h4>
+                                        <div class="rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        <p>₹1299</p>
+                                    </div>
+                                    <div class="col-4">
+                                            <img src="images/product-12.jpg">
+                                            <h4>Grey color Track paint</h4>
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <p>₹749</p>
+                                        </div>
+                        </div>
+                
+
+                <div class="page-btn">
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>&#8594;</span>
+                </div>
+        </div>
+
+
+
+
+
+
+         <div class="footer">
+             <div class="container">
+                 <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Dowmload our app</h3>
+                        <p>Download App for Android and ios mobile phone.</p>
+                        <div class="app-logo">
+                            <img src="images/play-store.png">
+                            <img src="images/app-store.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/logo-white.png">
+                        <p>Our purpose Is to sustainably make the pleasure and Benefits of sports Accessible to the many.</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Post</li>
+                            <li>Join Affliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                            <h3>Follow us</h3>
+                            <ul>
+                                <li>Facebook</li>
+                                <li>Twitter</li>
+                                <li>Instagram</li>
+                                <li>Youtube</li>
+                            </ul>
+                    </div>
+                 </div>
+                 <hr>
+                 <p class="copyright">Copyright 2020 -Aayush Kamtamkar</p>
+             </div>
+         </div>
+
+
+    </body>
+</html>
